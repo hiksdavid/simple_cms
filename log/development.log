@@ -1,0 +1,940 @@
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/demo/" for ::1 at 2017-01-05 20:36:39 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (19.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by DemoController#index as HTML
+  Rendering demo/index.html.erb
+  Rendered demo/index.html.erb (30.0ms)
+Completed 200 OK in 105ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-01-05 20:36:51 +0100
+Processing by DemoController#index as HTML
+  Rendering demo/index.html.erb
+  Rendered demo/index.html.erb (1.0ms)
+Completed 200 OK in 64ms (Views: 30.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for ::1 at 2017-01-06 20:27:53 +0100
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.0ms)
+Completed 200 OK in 47ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for ::1 at 2017-01-06 20:27:57 +0100
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.0ms)
+Completed 200 OK in 31ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello/20?page=5" for ::1 at 2017-01-06 20:28:02 +0100
+Processing by DemoController#hello as HTML
+  Parameters: {"page"=>"5", "id"=>"20"}
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (15.6ms)
+Completed 200 OK in 47ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 19:41:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `sorter' for #<Class:0x000000083f1210>
+Did you mean?  sorted):
+  
+app/controllers/subjects_controller.rb:6:in `index'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (27.6ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2283.2ms)
+Started GET "/subjects" for ::1 at 2017-01-07 19:45:19 +0100
+Processing by SubjectsController#index as HTML
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `sorter' for #<Class:0x000000083f1210>
+Did you mean?  sorted):
+  
+app/controllers/subjects_controller.rb:6:in `index'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1505.5ms)
+Started GET "/subjects" for ::1 at 2017-01-07 19:45:23 +0100
+Processing by SubjectsController#index as HTML
+Completed 500 Internal Server Error in 447ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `sorter' for #<Class:0x000000083f1210>
+Did you mean?  sorted):
+  
+app/controllers/subjects_controller.rb:6:in `index'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1431.6ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 19:46:14 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `sorter' for #<Class:0x00000008029740>
+Did you mean?  sorted):
+  
+app/controllers/subjects_controller.rb:6:in `index'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1567.1ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 19:47:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (3.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (160.1ms)
+Completed 200 OK in 218ms (Views: 136.8ms | ActiveRecord: 52.2ms)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 21:04:13 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (170.9ms)
+Completed 200 OK in 260ms (Views: 179.5ms | ActiveRecord: 38.8ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-07 21:04:21 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (13.6ms)
+Completed 200 OK in 69ms (Views: 46.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/subjects/show/1" for ::1 at 2017-01-07 21:04:25 +0100
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 1 LIMIT 1[0m
+  Rendering subjects/show.html.erb
+  Rendered subjects/show.html.erb (31.0ms)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     6:   <table summary="Subject detail view">
+     7:     <tr>
+     8:       <th>Name</th>
+     9:       <td><%= @subject.name %></td>
+    10:     </tr>
+    11:     <tr>
+    12:       <th>Position</th>
+  
+app/views/subjects/show.html.erb:9:in `_app_views_subjects_show_html_erb__830657904_68388480'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (22.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1544.1ms)
+Started GET "/subjects/show/2" for ::1 at 2017-01-07 21:06:34 +0100
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 2 LIMIT 1[0m
+  Rendering subjects/show.html.erb
+  Rendered subjects/show.html.erb (20.0ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     6:   <table summary="Subject detail view">
+     7:     <tr>
+     8:       <th>Name</th>
+     9:       <td><%= @subject.name %></td>
+    10:     </tr>
+    11:     <tr>
+    12:       <th>Position</th>
+  
+app/views/subjects/show.html.erb:9:in `_app_views_subjects_show_html_erb__830657904_47218620'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1476.1ms)
+Started GET "/subjects/show/4" for ::1 at 2017-01-07 21:06:50 +0100
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 4 LIMIT 1[0m
+  Rendering subjects/show.html.erb
+  Rendered subjects/show.html.erb (20.0ms)
+Completed 500 Internal Server Error in 62ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     6:   <table summary="Subject detail view">
+     7:     <tr>
+     8:       <th>Name</th>
+     9:       <td><%= @subject.name %></td>
+    10:     </tr>
+    11:     <tr>
+    12:       <th>Position</th>
+  
+app/views/subjects/show.html.erb:9:in `_app_views_subjects_show_html_erb__830657904_59849060'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1434.2ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 21:09:57 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (112.0ms)
+Completed 200 OK in 174ms (Views: 108.5ms | ActiveRecord: 35.9ms)
+
+
+Started GET "/subjects/show/2" for ::1 at 2017-01-07 21:10:04 +0100
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 2 LIMIT 1[0m
+  Rendering subjects/show.html.erb
+  Rendered subjects/show.html.erb (2.0ms)
+Completed 200 OK in 51ms (Views: 20.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/subjects/show/1" for ::1 at 2017-01-07 21:10:09 +0100
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 1 LIMIT 1[0m
+  Rendering subjects/show.html.erb
+  Rendered subjects/show.html.erb (1.0ms)
+Completed 200 OK in 45ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 21:32:24 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (184.0ms)
+Completed 200 OK in 269ms (Views: 171.0ms | ActiveRecord: 57.6ms)
+
+
+Started GET "/subjects/new" for ::1 at 2017-01-07 21:32:31 +0100
+Processing by SubjectsController#new as HTML
+  Rendering subjects/new.html.erb
+  Rendered subjects/new.html.erb (59.0ms)
+Completed 200 OK in 97ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subjects/create" for ::1 at 2017-01-07 21:32:45 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/subjects/create"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+C:/Ruby2000/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby2000/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby2000/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (10.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.5ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2006.9ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 21:44:06 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (119.0ms)
+Completed 200 OK in 179ms (Views: 104.9ms | ActiveRecord: 44.0ms)
+
+
+Started GET "/subjects/new" for ::1 at 2017-01-07 21:44:10 +0100
+Processing by SubjectsController#new as HTML
+  Rendering subjects/new.html.erb
+  Rendered subjects/new.html.erb (45.0ms)
+Completed 200 OK in 93ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 22:06:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  
+SyntaxError (C:/RubySites/simple_cms/app/controllers/subjects_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/subjects_controller.rb:28: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (20.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1496.7ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 22:07:32 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  
+SyntaxError (C:/RubySites/simple_cms/app/controllers/subjects_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/subjects_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (16.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1542.7ms)
+Started GET "/" for ::1 at 2017-01-07 22:07:52 +0100
+Processing by DemoController#index as HTML
+  Rendering demo/index.html.erb
+  Rendered demo/index.html.erb (1.0ms)
+Completed 200 OK in 48ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for ::1 at 2017-01-07 22:07:55 +0100
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (1.0ms)
+Completed 200 OK in 46ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for ::1 at 2017-01-07 22:08:00 +0100
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (1.0ms)
+Completed 200 OK in 38ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello/20?page=5" for ::1 at 2017-01-07 22:08:03 +0100
+Processing by DemoController#hello as HTML
+  Parameters: {"page"=>"5", "id"=>"20"}
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.0ms)
+Completed 200 OK in 38ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-07 22:08:14 +0100
+  
+SyntaxError (C:/RubySites/simple_cms/app/controllers/subjects_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/subjects_controller.rb:29: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1564.6ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-07 22:10:19 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (188.1ms)
+Completed 200 OK in 304ms (Views: 174.9ms | ActiveRecord: 71.0ms)
+
+
+Started GET "/subjects/new" for ::1 at 2017-01-07 22:10:24 +0100
+Processing by SubjectsController#new as HTML
+  Rendering subjects/new.html.erb
+  Rendered subjects/new.html.erb (30.0ms)
+Completed 200 OK in 69ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subjects/create" for ::1 at 2017-01-07 22:10:39 +0100
+Processing by SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xV7R4QUxzuke2CQ8v9QAiuS82JFpuhJQQf0SWdfHx4pSDfAB1l4lTgObfqaYbgpDsrHqc3/N3sFFag9rrOAtaQ==", "subject"=>{"name"=>"Default", "position"=>"5", "visible"=>"false"}, "commit"=>"Create Subject"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::ForbiddenAttributesError (ActiveModel::ForbiddenAttributesError):
+  
+app/controllers/subjects_controller.rb:18:in `create'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1455.2ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started POST "/subjects/create" for ::1 at 2017-01-07 22:11:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xV7R4QUxzuke2CQ8v9QAiuS82JFpuhJQQf0SWdfHx4pSDfAB1l4lTgObfqaYbgpDsrHqc3/N3sFFag9rrOAtaQ==", "subject"=>{"name"=>"Default", "position"=>"5", "visible"=>"false"}, "commit"=>"Create Subject"}
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `subject_params' for #<SubjectsController:0x0000000834f668>):
+  
+app/controllers/subjects_controller.rb:18:in `create'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1435.4ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects/" for ::1 at 2017-01-09 21:40:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (394.0ms)
+Completed 200 OK in 636ms (Views: 391.6ms | ActiveRecord: 130.9ms)
+
+
+Started GET "/subjects/show/1" for ::1 at 2017-01-09 21:40:58 +0100
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 1 LIMIT 1[0m
+  Rendering subjects/show.html.erb
+  Rendered subjects/show.html.erb (1.4ms)
+Completed 200 OK in 73ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-09 21:41:01 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (16.7ms)
+Completed 200 OK in 56ms (Views: 35.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/subjects/new" for ::1 at 2017-01-09 21:41:02 +0100
+Processing by SubjectsController#new as HTML
+  Rendering subjects/new.html.erb
+  Rendered subjects/new.html.erb (56.2ms)
+Completed 200 OK in 97ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subjects/create" for ::1 at 2017-01-09 21:41:18 +0100
+Processing by SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EZe1ElDpTRBFnXmVoZW6tF92Df2uWZzhsakLNNUm3/uGxJTyg4amt1jeIw+GL7B9CXs/H7guUHC1PhYGrgE1GA==", "subject"=>{"name"=>"Dada", "position"=>"", "visible"=>"false"}, "commit"=>"Create Subject"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `subject_params' for #<SubjectsController:0x00000008099888>):
+  
+app/controllers/subjects_controller.rb:18:in `create'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1728.8ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started POST "/subjects/create" for ::1 at 2017-01-09 21:46:39 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EZe1ElDpTRBFnXmVoZW6tF92Df2uWZzhsakLNNUm3/uGxJTyg4amt1jeIw+GL7B9CXs/H7guUHC1PhYGrgE1GA==", "subject"=>{"name"=>"Dada", "position"=>"", "visible"=>"false"}, "commit"=>"Create Subject"}
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `subject_params' for #<SubjectsController:0x00000008224608>):
+  
+app/controllers/subjects_controller.rb:19:in `create'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1486.0ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started POST "/subjects/create" for ::1 at 2017-01-09 21:55:33 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EZe1ElDpTRBFnXmVoZW6tF92Df2uWZzhsakLNNUm3/uGxJTyg4amt1jeIw+GL7B9CXs/H7guUHC1PhYGrgE1GA==", "subject"=>{"name"=>"Dada", "position"=>"", "visible"=>"false"}, "commit"=>"Create Subject"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (5.0ms)[0m  [1m[32mINSERT INTO `subjects` (`name`, `created_at`, `updated_at`) VALUES ('Dada', '2017-01-09 20:55:35', '2017-01-09 20:55:35')[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/subjects
+Completed 302 Found in 79ms (ActiveRecord: 28.8ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-09 21:55:41 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (2.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (5.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (86.2ms)
+Completed 200 OK in 135ms (Views: 92.3ms | ActiveRecord: 24.0ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-09 21:55:56 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  Rendered subjects/index.html.erb (17.0ms)
+Completed 200 OK in 65ms (Views: 38.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/subjects/new" for ::1 at 2017-01-09 22:00:05 +0100
+Processing by SubjectsController#new as HTML
+  Rendering subjects/new.html.erb
+  Rendered subjects/new.html.erb (18.0ms)
+Completed 200 OK in 58ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subjects/create" for ::1 at 2017-01-09 22:00:13 +0100
+Processing by SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wqYiO5+1084G6fvXDCfeTL2Ret6ezB8jXzMN3yzFz4hV9QPbTNo4aRuqoU0rndSF65xIPIi707JbpBDtV+Ilaw==", "subject"=>{"name"=>"xxxx", "position"=>"8", "visible"=>"false"}, "commit"=>"Create Subject"}
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO `subjects` (`name`, `position`, `created_at`, `updated_at`) VALUES ('xxxx', 8, '2017-01-09 21:00:13', '2017-01-09 21:00:13')[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/subjects
+Completed 302 Found in 11ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-09 22:00:13 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 6[0m
+  Rendered subjects/index.html.erb (24.5ms)
+Completed 200 OK in 63ms (Views: 38.8ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/subjects/show/6" for ::1 at 2017-01-09 22:00:19 +0100
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mSubject Load (2.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 6 LIMIT 1[0m
+  Rendering subjects/show.html.erb
+  Rendered subjects/show.html.erb (1.3ms)
+Completed 200 OK in 49ms (Views: 20.9ms | ActiveRecord: 2.0ms)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-11 21:48:01 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 6[0m
+  Rendered subjects/index.html.erb (185.3ms)
+Completed 200 OK in 266ms (Views: 168.8ms | ActiveRecord: 58.1ms)
+
+
+Started GET "/subjects/edit/6" for ::1 at 2017-01-11 21:48:09 +0100
+Processing by SubjectsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 6 LIMIT 1[0m
+  Rendering subjects/edit.html.erb
+  Rendered subjects/edit.html.erb (56.9ms)
+Completed 200 OK in 124ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subjects/update/6" for ::1 at 2017-01-11 21:48:25 +0100
+Processing by SubjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rsqTpGZjc7A8vA6X2KdVLFmicBYhzfu2SpEDiIwzDa85mbJEtQyYFyH/VA3/HV/lD69C9De6NydOBh669xTnTA==", "subject"=>{"name"=>"TestSubject", "position"=>"8", "visible"=>"false"}, "commit"=>"Update Subject", "id"=>"6"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 6 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[33mUPDATE `subjects` SET `name` = 'TestSubject', `updated_at` = '2017-01-11 20:48:25' WHERE `subjects`.`id` = 6[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/subjects/show/6
+Completed 302 Found in 17ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/subjects/show/6" for ::1 at 2017-01-11 21:48:25 +0100
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 6 LIMIT 1[0m
+  Rendering subjects/show.html.erb
+  Rendered subjects/show.html.erb (1.7ms)
+Completed 200 OK in 51ms (Views: 21.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-11 21:48:29 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 6[0m
+  Rendered subjects/index.html.erb (19.6ms)
+Completed 200 OK in 57ms (Views: 36.0ms | ActiveRecord: 2.0ms)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects" for ::1 at 2017-01-11 22:11:25 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 6[0m
+  Rendered subjects/index.html.erb (149.2ms)
+Completed 200 OK in 215ms (Views: 133.7ms | ActiveRecord: 48.1ms)
+
+
+Started GET "/subjects/delete/6" for ::1 at 2017-01-11 22:11:37 +0100
+Processing by SubjectsController#delete as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 6 LIMIT 1[0m
+  Rendering subjects/delete.html.erb
+  Rendered subjects/delete.html.erb (47.3ms)
+Completed 500 Internal Server Error in 95ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `subject_path' for #<#<Class:0x00000003f0a4f8>:0x0000000829ab50>):
+    3: <div class="subjects delete">
+    4:   <h2>Delete Subject</h2>
+    5: 
+    6:   <%= form_tag(:subject, :url => {:action => 'destroy', :id => @subject.id}) do |f| %>
+    7: 
+    8:     <p>Are you sure you want to permanently delete this subject?</p>
+    9: 
+  
+app/views/subjects/delete.html.erb:6:in `_app_views_subjects_delete_html_erb__1031375325_68475560'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1633.1ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subject" for ::1 at 2017-01-12 07:42:24 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  
+ActionController::RoutingError (No route matches [GET] "/subject"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.3.1) lib/web_console/middleware.rb:131:in `call_app'
+web-console (3.3.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.3.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+C:/Ruby2000/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+C:/Ruby2000/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+C:/Ruby2000/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (7.4ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (41.3ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (29.8ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2116.9ms)
+Started GET "/subjects" for ::1 at 2017-01-12 07:42:40 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 6[0m
+  Rendered subjects/index.html.erb (161.3ms)
+Completed 200 OK in 220ms (Views: 126.8ms | ActiveRecord: 52.7ms)
+
+
+Started GET "/subjects/new" for ::1 at 2017-01-12 07:42:50 +0100
+Processing by SubjectsController#new as HTML
+  Rendering subjects/new.html.erb
+  Rendered subjects/new.html.erb (2.0ms)
+Completed 200 OK in 46ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subjects/create" for ::1 at 2017-01-12 07:43:00 +0100
+Processing by SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v97Y2j2h8whRnv2FlHzN1j6c80XyZBY+YdzkG7y0i9Yojfk67s4Yr0zdpx+zxscfaJHBp+QT2q9lS/kpx5NhNQ==", "subject"=>{"name"=>"flash test", "position"=>"4", "visible"=>"false"}, "commit"=>"Create Subject"}
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO `subjects` (`name`, `position`, `created_at`, `updated_at`) VALUES ('flash test', 4, '2017-01-12 06:43:00', '2017-01-12 06:43:00')[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/subjects
+Completed 302 Found in 14ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-12 07:43:00 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 7[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 6[0m
+  Rendered subjects/index.html.erb (32.3ms)
+Completed 200 OK in 71ms (Views: 48.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/subjects/edit/7" for ::1 at 2017-01-12 07:43:03 +0100
+Processing by SubjectsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 7 LIMIT 1[0m
+  Rendering subjects/edit.html.erb
+  Rendered subjects/edit.html.erb (3.0ms)
+Completed 200 OK in 71ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/subjects/update/7" for ::1 at 2017-01-12 07:43:08 +0100
+Processing by SubjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q2SXRSCRXYmKNFJ2e8cb6EA774b0b05uCkRGGub+cBTUN7al8/62Lpd3COxcfREhFjbdZOIYgv8O01sondma9w==", "subject"=>{"name"=>"flash testeee", "position"=>"4", "visible"=>"false"}, "commit"=>"Update Subject", "id"=>"7"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 7 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[33mUPDATE `subjects` SET `name` = 'flash testeee', `updated_at` = '2017-01-12 06:43:08' WHERE `subjects`.`id` = 7[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/subjects/show/7
+Completed 302 Found in 12ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/subjects/show/7" for ::1 at 2017-01-12 07:43:08 +0100
+Processing by SubjectsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 7 LIMIT 1[0m
+  Rendering subjects/show.html.erb
+  Rendered subjects/show.html.erb (1.9ms)
+Completed 200 OK in 50ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-12 07:43:11 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 7[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 6[0m
+  Rendered subjects/index.html.erb (30.6ms)
+Completed 200 OK in 68ms (Views: 48.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/subjects/delete/7" for ::1 at 2017-01-12 07:43:14 +0100
+Processing by SubjectsController#delete as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 7 LIMIT 1[0m
+  Rendering subjects/delete.html.erb
+  Rendered subjects/delete.html.erb (35.0ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `subject_path' for #<#<Class:0x00000007e3e638>:0x00000006b8a9b0>):
+    3: <div class="subjects delete">
+    4:   <h2>Delete Subject</h2>
+    5: 
+    6:   <%= form_tag(:subject, :url => {:action => 'destroy', :id => @subject.id}) do |f| %>
+    7: 
+    8:     <p>Are you sure you want to permanently delete this subject?</p>
+    9: 
+  
+app/views/subjects/delete.html.erb:6:in `_app_views_subjects_delete_html_erb__394686141_56383960'
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby2000/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1517.5ms)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+Started GET "/subjects/delete/7" for ::1 at 2017-01-12 07:45:29 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SubjectsController#delete as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 7 LIMIT 1[0m
+  Rendering subjects/delete.html.erb
+  Rendered subjects/delete.html.erb (26.0ms)
+Completed 200 OK in 114ms (Views: 55.2ms | ActiveRecord: 15.8ms)
+
+
+Started POST "/subjects/destroy/7" for ::1 at 2017-01-12 07:45:51 +0100
+Processing by SubjectsController#destroy as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1Z4QxlTF0e0WXKFXhtTUbp+n4KPaNsOQ0p6I7YPdTjhCzTEmh6o6Sgsf+82hbt6nyarSQcxBDwHWCZXf+Pqk2w==", "commit"=>"Delete Subject", "id"=>"7"}
+  [1m[36mSubject Load (1.0ms)[0m  [1m[34mSELECT  `subjects`.* FROM `subjects` WHERE `subjects`.`id` = 7 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[31mDELETE FROM `subjects` WHERE `subjects`.`id` = 7[0m
+  [1m[35m (0.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/subjects
+Completed 302 Found in 11ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/subjects" for ::1 at 2017-01-12 07:45:51 +0100
+Processing by SubjectsController#index as HTML
+  Rendering subjects/index.html.erb
+  [1m[36mSubject Load (0.0ms)[0m  [1m[34mSELECT `subjects`.* FROM `subjects` ORDER BY subjects.position ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 5[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 1[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 2[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 4[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM `pages` WHERE `pages`.`subject_id` = 6[0m
+  Rendered subjects/index.html.erb (88.8ms)
+Completed 200 OK in 127ms (Views: 88.0ms | ActiveRecord: 19.8ms)
+
+
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:6)
+DEPRECATION WARNING: Using a dynamic :controller segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:16)
+DEPRECATION WARNING: Using a dynamic :action segment in a route is deprecated and will be removed in Rails 5.1. (called from block in <top (required)> at C:/RubySites/simple_cms/config/routes.rb:16)
